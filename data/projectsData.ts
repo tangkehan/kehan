@@ -1,24 +1,41 @@
 interface Project {
-  title: string,
-  description: string,
-  href?: string,
-  imgSrc?: string,
+  title: string
+  description: string
+  href?: string
+  imgSrc?: string
 }
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Discord Music Bot',
+    description: `I developed a discord music bot in Java with Java Discord API and LavaPlayer. 
+    It allows users to play music directly from YouTube within a Discord server. 
+    The bot supports playing specific songs or entire playlists based on YouTube searches. 
+    Additionally, it offers playback controls including play, skip, list, and shutdown. `,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: 'https://github.com/tangkehan/discord_music_bot',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'Facial Recognition Platform',
+    description: `I made a facial recognition platform, allowing users to upload images, 
+    manage accounts, track history, and retrieve results. The platform automatically detects 
+    and returns the number of faces in the uploaded photos using a robust RESTful API. 
+    Built in React, CSS, Node.js and Knex.js`,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: '/blog/the-time-machine',
+  },
+  {
+    title: 'Dynamic Storage Allocator',
+    description: `Designed a dynamic memory allocator consisting of the malloc, 
+    free, realloc, and calloc functions in C.`,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: '/blog/the-time-machine',
+  },
+  {
+    title: 'Bomb It',
+    description: `Bomb it is a 15x15 grid-based game developed in Python 
+      using the Tkinter framework. Features include Dijkstra's algorithm 
+      for dynamic map generation and breadth-first search for realistic NPC movements.`,
     imgSrc: '/static/images/time-machine.jpg',
     href: '/blog/the-time-machine',
   },

@@ -1,9 +1,8 @@
-"use client";
+'use client'
 
-import Profile_image from '/data/Kehan.jpg'
+import Profile_image from 'public/static/images/Kehan.jpg'
 import Image from 'next/image'
 import { useCallback, useEffect, useRef, useState } from 'react'
-
 
 const ProfileCard = () => {
   const ref = useRef(null)
@@ -49,13 +48,13 @@ const ProfileCard = () => {
   return (
     <>
       <div
-        className="scale-100 xl:hover:scale-[1.15] z-10 hover:z-50 transition-all duration-200 ease-out mb-8 xl:mb-0"
+        className="z-10 mb-8 scale-100 transition-all duration-200 ease-out hover:z-50 xl:mb-0 xl:hover:scale-[1.15]"
         style={{ perspective: '600px' }}
         ref={ref}
       >
         <div
           style={style}
-          className="flex flex-col transition-all duration-200 ease-out xl:shadow-lg shadow-cyan-100/50 dark:shadow-cyan-700/50 xl:rounded-lg bg-white dark:bg-dark overflow-hidden"
+          className="dark:bg-dark flex flex-col overflow-hidden bg-white shadow-cyan-100/50 transition-all duration-200 ease-out dark:shadow-cyan-700/50 xl:rounded-lg xl:shadow-lg"
         >
           <Image
             src={Profile_image}
