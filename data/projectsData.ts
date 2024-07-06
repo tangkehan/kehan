@@ -12,7 +12,7 @@ const projectsData: Project[] = [
     It allows users to play music directly from YouTube within a Discord server. 
     The bot supports playing specific songs or entire playlists based on YouTube searches. 
     Additionally, it offers playback controls including play, skip, list, and shutdown. `,
-    imgSrc: '/static/images/google.png',
+    imgSrc: '/static/images/discordBot.jpg',
     href: 'https://github.com/tangkehan/discord_music_bot',
   },
   {
@@ -36,7 +36,7 @@ const projectsData: Project[] = [
     description: `Bomb it is a 15x15 grid-based game developed in Python 
       using the Tkinter framework. Features include Dijkstra's algorithm 
       for dynamic map generation and breadth-first search for realistic NPC movements.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    imgSrc: '/static/images/bombit.jpg',
     href: '/blog/the-time-machine',
   },
 ]
