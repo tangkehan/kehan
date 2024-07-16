@@ -3,7 +3,7 @@ import ProfileCard from '@/components/ProfileCard'
 
 export default function Home() {
   const headingColorClass =
-    'bg-gradient-to-r from-yellow-600 to-red-600 dark:bg-gradient-to-l dark:from-purple-400 dark:to-pink-300'
+    'bg-gradient-to-r from-orange-400 to-yellow-500 dark:bg-gradient-to-l dark:from-purple-400 dark:to-pink-300'
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -24,8 +24,8 @@ export default function Home() {
               </span>
             </p>
 
-            <div className="text-xl leading-8 text-gray-600 dark:text-gray-600">
-              <h1 className="text-neutral-900 dark:text-neutral-200">
+            <div className="text-xl leading-8 text-gray-600 dark:text-gray-400">
+              <h1 className="font-normal text-neutral-900 dark:text-neutral-200">
                 I'm <span className="font-medium">Kehan</span> - I will be a{' '}
                 <span className="font-medium">Software Engineer</span>{' '}
               </h1>
