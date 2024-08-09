@@ -1,5 +1,5 @@
 // @ts-check
-const {fontFamily} = require('tailwindcss/defaultTheme')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 /** @type {import("tailwindcss").Config } */
@@ -22,19 +22,17 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        
         // sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
         // sans: ['Outfit', ...defaultTheme.fontFamily.sans],
         sans: ['Outfit', ...fontFamily.sans],
-     
       },
       fontSize: {
-        'xs': '0.75rem',   // Extra small (12px)
-        'sm': '0.875rem',  // Small (14px)
-        'base': '1rem',    // Base (16px)
-        'lg': '1.125rem',  // Large (18px)
-        'xl': '1.25rem',   // Extra large (20px)
-        '2xl': '1.5rem',   // 2x large (24px)
+        xs: '0.75rem', // Extra small (12px)
+        sm: '0.875rem', // Small (14px)
+        base: '1rem', // Base (16px)
+        lg: '1.125rem', // Large (18px)
+        xl: '1.25rem', // Extra large (20px)
+        '2xl': '1.5rem', // 2x large (24px)
         // Add more custom sizes as needed
       },
       colors: {
