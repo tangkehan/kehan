@@ -12,7 +12,7 @@ My love for material science remains steadfast. Exploring the intricate world of
 materials science has been more than just an academic pursuit; it’s been a source of endless enrichment. 
 The knowledge I’ve gained in these areas continues to shape my perspective in profound ways. 🔬💡`,
     imgSrcs: [
-      '/static/images/mse01.JPG',
+      '/static/images/mse010.JPG',
       '/static/images/mse02.jpg',
       '/static/images/mse03.jpg',
       '/static/images/mse04.jpg',
