@@ -1,6 +1,6 @@
 'use client'
 
-import Profile_image from 'public/static/images/Kehan.jpg'
+import Profile_image from 'public/static/images/Kehan.JPG'
 import Image from 'next/image'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
