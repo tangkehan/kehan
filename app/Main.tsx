@@ -49,7 +49,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <span className="emoji">📝</span>
-                  <Link href="/projects" className="hover:underline">
+                  <Link href="/resume" className="hover:underline">
                     <span className="ml-2">My Resume</span>
                   </Link>
                 </div>
