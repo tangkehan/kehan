@@ -3,6 +3,8 @@ import type { Authors } from 'contentlayer/generated'
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import ProfileCard from '@/components/ProfileCard'
+import HobbyCard from '@/components/HobbyCard'
+import HobbyData from '@/data/HobbyData'
 
 interface Props {
   children: ReactNode
@@ -29,6 +31,23 @@ export default function AuthorLayout({ children, content }: Props) {
           </div>
           <div className="prose max-w-none pb-8 pt-8 text-xl dark:prose-invert xl:col-span-2">
             {children}
+          </div>
+        </div>
+        <div className="divide-y">
+          <div className="container mx-auto max-w-screen-xl py-12">
+            <h3 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100">
+              Behind The Code 🫧
+            </h3>
+            <div className="flex w-full flex-col  gap-4">
+              {HobbyData.map((hobby) => (
+                <HobbyCard
+                  key={hobby.title}
+                  title={hobby.title}
+                  imgSrcs={hobby.imgSrcs}
+                  info={hobby.info}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
