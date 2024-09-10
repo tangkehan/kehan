@@ -21,15 +21,15 @@ const projectsData: Project[] = [
     manage accounts, track history, and retrieve results. The platform automatically detects 
     and returns the number of faces in the uploaded photos using a robust RESTful API. 
     Built in React, CSS, Node.js and Knex.js`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    imgSrc: '/static/images/faceDetect.jpg',
+    href: 'https://github.com/tangkehan/Facial-Recognition',
   },
   {
     title: 'Dynamic Storage Allocator',
     description: `Designed a dynamic memory allocator consisting of the malloc, 
     free, realloc, and calloc functions in C.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    imgSrc: '/static/images/malloc.jpg',
+    href: 'https://github.com/tangkehan/Dynamic-Storage-Allocator',
   },
   {
     title: 'Bomb It',
@@ -37,7 +37,7 @@ const projectsData: Project[] = [
       using the Tkinter framework. Features include Dijkstra's algorithm 
       for dynamic map generation and breadth-first search for realistic NPC movements.`,
     imgSrc: '/static/images/bombit.jpg',
-    href: '/blog/the-time-machine',
+    href: 'https://github.com/tangkehan/BombIt',
   },
 ]
 

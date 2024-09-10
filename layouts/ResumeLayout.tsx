@@ -21,7 +21,7 @@ export default function ResumeLayout({ children, content }) {
       </div> */}
 
         <div className="border border-t border-gray-200 dark:border-gray-700" />
-        <div className="mx-auto my-12 max-w-screen-xl gap-12 space-y-12 rounded-md bg-gray-100 p-3 md:flex md:space-y-0 md:p-8">
+        <div className="mx-auto my-12 max-w-screen-xl gap-12 space-y-12 rounded-md bg-gray-100 p-3 dark:bg-gray-800 md:flex md:space-y-0 md:p-8">
           <div className="prose max-w-none grow table-auto border-collapse pb-8 pt-8  text-xl dark:prose-invert xl:col-span-2 ">
             {children}
           </div>

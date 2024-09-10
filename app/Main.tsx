@@ -59,6 +59,16 @@ export default function Home() {
                     <span className="ml-2">More about me and myself</span>
                   </Link>
                 </div>
+                <div>
+                  <span className="emoji">📫</span>
+                  <span className="ml-2">Don't hesitate to reach out to me: </span>
+                  <a
+                    href="mailto:kehant0614@gmail.com"
+                    style={{ color: 'rgb(236, 72, 153)', cursor: 'pointer' }}
+                  >
+                    kehant0614@gmail.com
+                  </a>
+                </div>
               </div>
               <p className="my-8">Happy reading 🍻</p>
             </div>
